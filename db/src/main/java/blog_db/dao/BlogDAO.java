@@ -91,7 +91,7 @@ public class BlogDAO {
 		List<Category> cat = query.getResultList();
 
 		if (cat.size() > 0) {
-			return (Category) cat.get(0);
+			return cat.get(0);
 		}
 		
 		return null;
@@ -112,7 +112,7 @@ public class BlogDAO {
 		List<Author> author = query.getResultList();
 
 		if (author.size() > 0) {
-			return (Author) author.get(0);
+			return author.get(0);
 		}
 		
 		return null;
