@@ -20,7 +20,7 @@ public class FrontController extends AbstractController {
 			HttpServletResponse response) throws Exception {
 
 		ModelAndView modelandview = new ModelAndView("index");
-		modelandview.addObject("welcome message", "Hello and welcoem to rokmel with Spring MVC Framework !");
+		modelandview.addObject("welcome message", "Welcome to rokmel with Spring MVC Framework !");
 		
 		return modelandview;
 	}
